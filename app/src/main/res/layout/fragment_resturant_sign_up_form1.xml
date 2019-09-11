@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:padding="10dp"
+    tools:context="com.example.eng_shady.MyResturant.fragments.ResturantSignUpForm1Fragment">
+
+    <EditText
+        android:id="@+id/TxtResturantSignForm1Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext"
+        android:hint="@string/Name"
+        android:padding="5dp"
+        android:textDirection="rtl" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/TxtResturantSignForm1Name"
+
+        android:orientation="horizontal">
+
+
+        <Spinner
+            android:id="@+id/spResturantSignForm1Country"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:background="@drawable/spinner"
+            android:src="@drawable/ic_arrow" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/linearLayout2"
+        android:orientation="horizontal">
+
+
+        <Spinner
+            android:id="@+id/spResturantSignForm1town"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:background="@drawable/spinner"
+            android:src="@drawable/ic_arrow" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/TxtResturantSignForm1Home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:hint="@string/Address"
+        android:layout_below="@+id/linearLayout3"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:textDirection="rtl"
+ />
+    <EditText
+        android:id="@+id/TxtResturantSignForm1Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/TxtResturantSignForm1Home"
+        android:background="@drawable/edittext"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:textDirection="rtl" />
+
+
+
+    <EditText
+        android:id="@+id/TxtResturantSignForm1Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/TxtResturantSignForm1Email"
+        android:background="@drawable/edittext"
+        android:hint="@string/Password"
+        android:inputType="numberPassword"
+        android:padding="5dp"
+        android:textDirection="rtl" />
+
+    <EditText
+        android:id="@+id/TxtResturantSignForm1Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/TxtResturantSignForm1Pass"
+        android:background="@drawable/edittext"
+        android:hint="@string/PassConfirm"
+        android:inputType="numberPassword"
+        android:padding="5dp"
+        android:textDirection="rtl" />
+
+    <Button
+        android:id="@+id/btnResturantSignForm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/TxtResturantSignForm1Confirm"
+        android:background="#3C9B27"
+        android:text="@string/Continue" />
+
+</RelativeLayout>

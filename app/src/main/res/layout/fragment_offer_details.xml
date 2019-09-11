@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eng_shady.MyResturant.fragments.OfferDetailsFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="60dp"
+       android:layout_gravity="center"
+       android:padding="10dp"
+       android:background="#fff">
+
+       <ImageView
+           android:id="@+id/imgOfferDetails"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="10dp"
+           android:src="@drawable/ic_available" />
+
+       <TextView
+           android:id="@+id/txtOfferDetailsName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textAlignment="center"
+           android:layout_below="@+id/imgOfferDetails"
+           android:layout_marginBottom="10dp"
+            />
+       <TextView
+           android:id="@+id/txtOfferDetailsDescription"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/txtOfferDetailsName"
+           android:textAlignment="center"
+           android:inputType="textMultiLine"
+           android:layout_marginBottom="10dp"
+           />
+       <TextView
+           android:id="@+id/txtOfferDetailsStart"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/txtOfferDetailsDescription"
+           android:layout_marginBottom="10dp"
+           android:textAlignment="center"
+            />
+       <TextView
+           android:id="@+id/txtOfferDetailsEnd"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:layout_below="@+id/txtOfferDetailsStart"
+           android:textAlignment="center"
+            />
+
+       <TextView
+           android:id="@+id/txtOfferDetailsAvaiable"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:textAlignment="center"
+           android:layout_below="@+id/txtOfferDetailsEnd"
+           />
+       <TextView
+           android:id="@+id/txtOfferDetailsPrice"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:layout_below="@+id/txtOfferDetailsAvaiable"
+           android:textAlignment="center"
+            />
+   </RelativeLayout>
+
+</FrameLayout>

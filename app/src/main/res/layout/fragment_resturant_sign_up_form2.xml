@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:padding="10dp"
+    tools:context="com.example.eng_shady.MyResturant.fragments.ResturantSignUpForm2Fragment">
+
+
+    <com.example.eng_shady.MyResturant.adapters.MultiSelectionSpinner
+        android:id="@+id/spResturantSignForm2Catagory"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@drawable/spinner"
+        android:src="@drawable/ic_arrow"
+        android:layout_margin="10dp">
+
+    </com.example.eng_shady.MyResturant.adapters.MultiSelectionSpinner>
+
+    <EditText
+        android:id="@+id/txtResturantSignForm2Mini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@id/spResturantSignForm2Catagory"
+        android:background="@drawable/edittext"
+        android:hint="@string/MiniCharger"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtResturantSignForm2Dilvery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:layout_below="@id/txtResturantSignForm2Mini"
+        android:background="@drawable/edittext"
+        android:hint="@string/Delivary"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtResturantSignForm2DilveryTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:layout_below="@id/txtResturantSignForm2Dilvery"
+        android:background="@drawable/edittext"
+        android:hint="@string/DelivaryTime"
+        android:padding="10dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/txtResturantSignForm2DilveryTime"
+        android:layout_marginBottom="10dp"
+        android:layoutDirection="rtl"
+        android:text="@string/ContactData"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/contactLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/txtResturantSignForm2whatsApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:hint="@string/Whats"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/txtResturantSignForm2mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext"
+            android:layout_weight="1"
+            android:hint="@string/Phone"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/restaurantImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ResturantSignForm2Image"
+        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@+id/ResturantSignForm2Image"
+        android:background="@drawable/edittext"
+        android:padding="10dp"
+        android:text="@string/ResImage"
+        android:drawableEnd="@drawable/ic_open"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ResturantSignForm2Image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/btnResturantSignForm2"
+        android:layout_marginEnd="18dp"
+        android:layout_toStartOf="@+id/checkBox"
+        android:src="@drawable/ic_restaurant_image" />
+
+    <Button
+        android:id="@+id/btnResturantSignForm2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/bgbtn_login"
+        android:text="@string/Register"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|normal" />
+
+</RelativeLayout>
+
+

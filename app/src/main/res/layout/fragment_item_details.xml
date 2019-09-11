@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ItemDetailsImage"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/txtItemDetailsTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+         />
+
+    <TextView
+        android:id="@+id/txtItemDetailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtItemDetailsDescription"
+        android:layout_alignEnd="@+id/txtItemDetailsDescriptionorder"
+
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtItemDetailsDescription"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtItemDetailsPrepering"
+        android:layout_alignParentEnd="true"
+
+        android:textSize="15sp"
+        android:padding="5dp"
+         />
+
+    <TextView
+        android:id="@+id/txtItemDetailsPrepering"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtItemDetailsDescriptionorder"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="23dp"
+
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtItemDetailsDescriptionorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtDetailsSpecialOrder"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:text="@string/SpecialOrder"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtItemDetailsprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/addItemDetais"
+        android:layout_below="@+id/ItemDetailsImage"
+        android:text="@string/Price"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtItemDetailspriceNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtItemDetailsprice"
+        android:layout_alignTop="@+id/txtItemDetailsDescription"
+
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtDetailsSpecialOrder"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/tztDetailsNum"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:padding="10dp"
+        android:gravity="end"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/tztDetailsNum"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@+id/addItemDetais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/NumberOne"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/addItemDetais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bgbtn"
+        android:drawableEnd="@drawable/ic_cart"
+        android:padding="15dp"
+        android:text="@string/CartAdd"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ImgDetailsPlus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txtDetailsSpecialOrder"
+        android:layout_gravity="center"
+        android:layout_toEndOf="@+id/tztDetailsNum"
+        android:src="@drawable/ic_add"
+        app:civ_border="true"
+        app:civ_border_color="#000"
+        app:civ_border_width="1dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#000"
+        app:civ_shadow_radius="2" />
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ImgDetailsMinus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txtDetailsSpecialOrder"
+        android:layout_gravity="center"
+        android:layout_toStartOf="@+id/tztDetailsNum"
+        android:src="@drawable/ic_remove"
+        app:civ_border="true"
+        app:civ_border_color="#000"
+        app:civ_border_width="1dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#000"
+        app:civ_shadow_radius="2" />
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">سفرة</string>
+    <string name="AppIntro">التطبيق الأول لطلب وبيع الطعام المنزلى</string>
+    <string name="FoodAsk">طلب طعام</string>
+    <string name="FoodSell">بيع طعام</string>
+    <string name="AppRights">جميع الحقوق محفوظة لتطبيق سفرة 2018</string>
+    <string name="title_activity_client">ClientActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_resturant">ResturantActivity</string>
+    <string name="Welcome">مرحبا بك ..</string>
+    <string name="MainPage">الصفحة الرئيسية</string>
+    <string name="MyOrder">طلباتي</string>
+    <string name="Notification">التنبيهات</string>
+    <string name="NewOffer">جديد العروض</string>
+    <string name="AboutApp">عن التطبيق</string>
+    <string name="Conditions">الشروط والأحكام</string>
+    <string name="AppShare">شارك التطبيق</string>
+    <string name="ContactUs">تواصل معنا</string>
+    <string name="PersonName">شادى عفيف</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Message">نص الرسالة</string>
+    <string name="Phone">الجوال</string>
+    <string name="Name">الإسم كاملا</string>
+    <string name="Email">البريد الإلكترونى</string>
+    <string name="FollowUs">تابعـــــــونا</string>
+    <string name="Send">إرســـــــــال</string>
+    <string name="Enquiry">إستعلام</string>
+    <string name="Complaint">شكوى</string>
+    <string name="Suggestion">إقتراح</string>
+    <string name="Login">تفضل بتسجيل الدخول</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="PassForget">نسيت كلمة المرور ؟</string>
+    <string name="SignUp">إنشاء حساب جديد</string>
+    <string name="PassConfirm">تأكيد كلمة المرور</string>
+    <string name="City">المدينة</string>
+    <string name="Region">الحي</string>
+    <string name="Address">وصف السكن</string>
+    <string name="Register">تسجيل</string>
+
+    <string name="PassChange">تغيير كلمة السر</string>
+
+
+    <string name="Code">رقم الكود</string>
+    <string name="NewPass">كلمة المرور الجديدة</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="OfferStart">بداية العرض :</string>
+    <string name="OfferEnd"> نهاية العرض :</string>
+    <string name="Offer">العرض</string>
+    <string name="Resturant">إسم المطعم</string>
+    <string name="Price">السعر</string>
+    <string name="Catagory">المجموعات</string>
+    <string name="Open">مفتوح</string>
+    <string name="MiniCharger">الحد الأدنى للطلب :</string>
+    <string name="Delivary">رسوم التوصيل :</string>
+    <string name="ResturantInfo">معلومات المتجر</string>
+    <string name="Comments">التعليقات والتقييم</string>
+    <string name="FoodMenu">قائمة الطعام</string>
+    <string name="rating">التقييم</string>
+    <string name="PAddComment">يسعدنا مشاركتك بتعليق او تقييم</string>
+    <string name="CommentAdd">أضف تعليق</string>
+    <string name="CommentDescription">التعليق</string>
+
+    <string name="ValidationReqire">هذا الحقل مطلوب</string>
+    <string name="CommissionDescription">يرجى تحويل 10 % من الربح المباع في مدة أقصاها شهر علما بأن جميع الطلبات ستكون مسجلة على حسابك الشخصي</string>
+    <string name="WhatPaid">ماتم سداده</string>
+    <string name="TheRemainder">المتبقى</string>
+    <string name="ResturantSelling">مبيعات المطعم</string>
+    <string name="AppCommission">عمولات التطبيق</string>
+    <string name="CommissionValue">نسبة العمولة</string>
+    <string name="Continue">متابعة</string>
+    <string name="ContactData">بيانات التواصل</string>
+    <string name="Whats">واتس اب</string>
+    <string name="ResImage">صورة المتجر</string>
+    <string name="DelivaryTime">وقت التوصيل :</string>
+    <string name="Save">حفظ</string>
+    <string name="ItemName">إسم الصنف</string>
+    <string name="Description">الوصف</string>
+    <string name="preperingTime">وقت الإعداد</string>
+    <string name="Add">إضافة</string>
+    <string name="ProductPic">صورة المنتج</string>
+    <string name="Update">تعديل</string>
+    <string name="OfferAdd">إسم العرض</string>
+    <string name="OfferPic">صورة العرض</string>
+    <string name="CartAdd">اضف الى السلة</string>
+    <string name="SpecialOrder">طلب خاص</string>
+    <string name="NumberOne">1</string>
+    <string name="Total">الإجمالى</string>
+    <string name="AddMore">إضافة المزيد</string>
+    <string name="RequestFinish">إتمام الطلب</string>
+    <string name="Refused">رفض</string>
+    <string name="Deliverd">إستلام</string>
+
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFD13D</color>
+    <color name="colorPrimaryDark">#FFD13D</color>
+    <color name="colorAccent">#9a9a9a</color>
+    <color name="CommissionGrid">#e7e7e7</color>
+    <color name="Colorbtn">#00FF7F</color>
+
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+
+    <color name="yellow">#ffd13e</color>
+    <color name="orange">#f9b635</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#3d9c29</color>
+    <color name="gray">#e6e6e6</color>
+    <color name="dark_gray">#757575</color>
+    <color name="red">#d24241</color>
+</resources>

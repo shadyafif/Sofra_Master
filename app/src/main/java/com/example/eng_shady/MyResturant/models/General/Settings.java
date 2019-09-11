@@ -1,0 +1,44 @@
+package com.example.eng_shady.MyResturant.models;
+
+
+import com.example.eng_shady.MyResturant.models.SettingData;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+public class Settings {
+
+    @SerializedName("status")
+    @Expose
+    private int status;
+    @SerializedName("msg")
+    @Expose
+    private String msg;
+    @SerializedName("data")
+    @Expose
+    private SettingData data;
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public SettingData getData() {
+        return data;
+    }
+
+    public void setData(SettingData data) {
+        this.data = data;
+    }
+
+}

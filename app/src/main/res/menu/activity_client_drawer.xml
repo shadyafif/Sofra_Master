@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/MainPage" />
+        <item
+            android:id="@+id/order"
+            android:icon="@drawable/ic_order"
+            android:title="@string/MyOrder" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/Notification" />
+        <item
+            android:id="@+id/newOffer"
+            android:icon="@drawable/ic_new"
+            android:title="@string/NewOffer" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/AboutApp" />
+        <item
+            android:id="@+id/terms"
+            android:icon="@drawable/ic_terms"
+            android:title="@string/Conditions" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/AppShare" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_contact"
+            android:title="@string/ContactUs" />
+
+    </group>
+</menu>

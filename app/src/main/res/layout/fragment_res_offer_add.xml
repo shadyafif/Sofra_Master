@@ -1,0 +1,122 @@
+ <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+
+        android:padding="10dp"
+        android:textAlignment="textEnd"
+        tools:context="com.example.eng_shady.MyResturant.fragments.ResOfferAddFragment">
+
+        <TextView
+            android:id="@+id/txtResturantOfferAddName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/OfferAdd"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/txtResturantOfferAddDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtResturantOfferAddName"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/Description"
+
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/txtResturantOfferAddPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtResturantOfferAddDescription"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/Price"
+            android:inputType="number"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:id="@+id/Liner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtResturantOfferAddPrice"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/txtResturantOfferAddEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/edittext"
+                android:drawableStart="@drawable/ic_date"
+                android:hint="@string/OfferEnd"
+                android:padding="5dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtResturantOfferAddStart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext"
+                android:drawableStart="@drawable/ic_date"
+                android:hint="@string/OfferStart"
+                android:padding="5dp"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txtResturantOfferAddImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btnResturantOfferAdd"
+            android:layout_alignTop="@+id/ResturantOfferAddImage"
+            android:layout_below="@+id/Liner"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext"
+            android:drawableEnd="@drawable/ic_open"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/OfferPic"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ResturantOfferAddImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:layout_below="@+id/Liner"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:src="@drawable/ic_restaurant_image" />
+
+        <Button
+            android:id="@+id/btnResturantOfferAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bgbtn_login"
+            android:text="@string/Add"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold|normal" />
+
+
+    </RelativeLayout>

@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:padding="10dp"
+    tools:context="com.example.eng_shady.MyResturant.fragments.ItemAddFragment">
+
+
+    <EditText
+        android:id="@+id/txtResturantItemAddName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:hint="@string/ItemName"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtResturantItemAddDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/txtResturantItemAddName"
+        android:background="@drawable/edittext"
+        android:hint="@string/Description"
+
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtResturantItemAddPreperingTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:layout_below="@id/txtResturantItemAddDescription"
+        android:background="@drawable/edittext"
+        android:hint="@string/preperingTime"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtResturantItemAddPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:layout_below="@id/txtResturantItemAddPreperingTime"
+        android:background="@drawable/edittext"
+        android:hint="@string/Price"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:id="@+id/txtResturantItemAddImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnResturantItemAdd"
+        android:layout_alignTop="@+id/ResturantItemAddImage"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/edittext"
+        android:drawableEnd="@drawable/ic_open"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/ProductPic"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ResturantItemAddImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/btnResturantItemAdd"
+        android:layout_below="@+id/txtResturantItemAddPrice"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:src="@drawable/ic_restaurant_image" />
+
+    <Button
+        android:id="@+id/btnResturantItemAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/bgbtn_login"
+        android:text="@string/Add"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|normal" />
+
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ret"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="65dp"
+    tools:context="com.example.eng_shady.MyResturant.fragments.ResetPassFragment">
+
+
+    <LinearLayout
+        android:id="@+id/layoutPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtResetEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext"
+            android:hint="@string/Email"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/BtnCodeSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#00FF7F"
+            android:text="إرسال الكود"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutPass"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtResetCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:background="@drawable/edittext"
+            android:enabled="false"
+            android:hint="@string/Code"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/txtResetNewPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext"
+            android:enabled="false"
+            android:textAlignment="textEnd"
+            android:hint="@string/NewPass"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtResetConfirmPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext"
+            android:enabled="false"
+            android:textAlignment="textEnd"
+            android:hint="@string/PassConfirm"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnPsswordChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00FF7F"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="تغيير كلمة المرور"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>
