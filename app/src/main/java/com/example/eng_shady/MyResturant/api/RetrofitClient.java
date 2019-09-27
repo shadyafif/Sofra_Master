@@ -18,7 +18,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
 
-    private static final String BASE_URL = "https://api.themoviedb.org/3/movie/550?api_key=9655c6ddf61cbc31e2b477b1cfc91cbc";
+    private static final String BASE_URL = "https://https://ipda3.com/sofra/api/v1/";
     private static com.example.eng_shady.MyResturant.api.RetrofitClient mInstance;
     private Retrofit retrofit;
 
